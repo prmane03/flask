@@ -1,0 +1,13 @@
+<div class="question">
+    <p>{c} {que}<span class="required">*</span></p>
+    <div class="question-answer">
+        <input type="radio" id="radio_{c}1" name="radio{c}" value="{opt1}" required/>
+        <label for="radio_{c}1" class="radio"><span>{opt1}</span></label>
+        <input type="radio" id="radio_{c}2" name="radio{c}" value="{opt2}" required/>
+        <label for="radio_{c}2" class="radio"><span>{opt2}</span></label>
+        <input type="radio" id="radio_{c}3" name="radio{c}" value="{opt3}" required/>
+        <label for="radio_{c}3" class="radio"><span>{opt3}</span></label>
+        <input type="radio" id="radio_{c}4" name="radio{c}" value="{opt4}" required/>
+        <label for="radio_{c}4" class="radio"><span>{opt4}</span></label>
+    </div>
+</div>
